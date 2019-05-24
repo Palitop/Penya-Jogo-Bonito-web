@@ -4,24 +4,59 @@
         <meta charset="UTF-8">
         <meta name="author" content="Pau Pérez">
         <meta name="description" content="Penya Jogo Bonito website">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
         <title>Penya Jogo Bonito</title>
+        
     </head>
 
     <body>
-        <img src="images/logojb.png" alt="Logo Penya" width="178" height="213">
-        <img src="images/logoatb.png" alt="Logo ATB" width="87" height="150">
-        <h1>Penya Jogo Bonito</h1>
-        <a href="index.html">Inici</a>
-        <a href="members.html">Membres</a>
-        <a href="headquarters.html">Seu</a>
-        <a href="bet.html">Porra</a>
-        <a href="orsai.html">Orsai</a>
-        <a href="blog.html">Blog</a>
+        <!--the header will see all the time-->
+        <header>
+            <img src="images/logojb.png" alt="Logo Penya" width="178" height="213">
+            <a href="https://atleticobaleares.com/" target="_blank"><img src="images/logoatb.png" alt="Logo ATB" width="87" height="150"></a>
+              
+            <h1>Penya Jogo Bonito</h1>
+
+             <!--webpage menu-->
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="members.html">Membres</a></li>
+                <li><a href="headquarters.html">Seu</a></li>
+                <li><a href="bet.html">Porra</a></li>
+                <li><a href="orsai.html">Orsai</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>    
+
+        </header>
+
         <h2>Porra setmanal</h2>
 
-        <input type="text" id="user">
-        <input type="text" id="result">
+        <h4>Bases</h4>
+        <p>Aquí s'explicaran les bases de la porra</p>
+
+        <input id="user">
+        
+        <p>Local</p>
+        <select>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+        </select>
+
+        <p>Visitante</p>
+        <select>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+            <option value="0-0">0</option>
+        </select>
         <button id="done">Fet</button>
+        <script src="js/bet.js"></script>
     </body>
 
 </html>
